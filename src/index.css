@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todoitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  border: 1px solid gray;
+  margin: 10px auto;
+  width: 400px;
+  padding: 5px 10px;
+}
+.todoitem span {
+  font-size: 2em;
+  cursor: pointer;
+}
+input,
+button {
+  padding: 8px 15px;
+}
